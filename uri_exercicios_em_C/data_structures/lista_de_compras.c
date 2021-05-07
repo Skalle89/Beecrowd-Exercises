@@ -116,7 +116,6 @@ int main(){
     int n,i;
     scanf("%d ",&n);
 
-
     for(i = 0; i < n; i++){
 
         char linha [21*1000];
@@ -130,69 +129,6 @@ int main(){
         lista = separar_palavras(linha,word,lista);
 
         exibir(lista);
-
+        
     }
-}
-
-//TODO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-int ordenar(Comp *a, Comp *b){
-//    int x,iguais = 0;
-//
-//    if(a->len > b->len) {
-//        for (x = 0; b->prod[x] != '\0'; x++) {
-//            if (a->prod[x] > b->prod[x]) return 0;
-//        }
-//
-//    }
-//
-//    else if (a->len <= b->len){
-//        for (x = 0; a->prod[x] != '\0'; x++) {
-//            if (a->prod[x] > b->prod[x]) return 0;
-//
-//        }
-//    }
-
-//    return strcmp(a->prod,b->prod);
-//    for(x = 0; b->prod[x] != '\0';x++){
-//        if(a->prod[0] > b->prod[0]){
-//            return 0;
-//        }
-//
-//        if(a->prod[0] == b->prod[0] && a->len > b->len){
-//            return 0;
-//        }
-//    }
-
-
-
-    return 1;
-
 }
