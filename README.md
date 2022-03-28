@@ -1,6 +1,6 @@
 # URI-Online
 
-https://www.urionlinejudge.com.br
+https://www.beecrowd.com.br
 
 Plataforma online para resolução de problemas de programação
 
